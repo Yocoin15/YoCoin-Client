@@ -1,6 +1,5 @@
 #!/bin/bash -xevu
 
-CORS='*';
-API='yoc,web3,net,eth,miner,debug';
+API='yoc,web3,net,eth';
 
-./yocoin --rpc --discover --rpcport 8545  --rpccorsdomain "$CORS" --rpcapi $API --rpcaddr "0.0.0.0" --networkid 131313 --datadir "./datadir" console
+./yocoin --rpc --discover --rpcport 8545  --rpccorsdomain "*" --rpcapi $API --rpcaddr "0.0.0.0" --networkid 131313 --datadir "./datadir" console
