@@ -23,6 +23,8 @@ chmod +x ./yocoin
 # RPC Server:
 
 chmod +x ./yoc.sh
+
+
 ./yoc.sh
 
 # New updates and bug fixes are coming shortly...
